@@ -9,6 +9,12 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'rails', '~> 5.2.0'
 #gem 'bcrypt', '3.1.11'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+#gem 'faker', '1.7.3'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
